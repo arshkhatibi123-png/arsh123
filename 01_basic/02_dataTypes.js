@@ -16,10 +16,10 @@ let isLoggedIn = false
 //primitive
 
 // number=>123
-// number =>
-//bigint=>lrg no
+// number => ((-2 to d pwer53 )+ 1) to ((2 to d pwr53) - 1)
+//bigint=> lrg no
 //string=>"xyz"
-//boolean=>true/false
+//boolean=> true/false
 //null=> standaloe value
 //undefined => not assigned valued 
 // symbol => uniqness 
@@ -29,6 +29,6 @@ let isLoggedIn = false
 
 //object
 
-console.log(typeof undefined); //undefined
-console.log(typeof null); //object
+console.log(typeof undefined); //op=undefined
+console.log(typeof null); //op=object
 
