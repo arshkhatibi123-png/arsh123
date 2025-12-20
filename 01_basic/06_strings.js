@@ -46,12 +46,14 @@ console.log(words[2]);
 const chars = str.split(' ');
 console.log(chars[5]);
 
-//The JavaScript split() method divides a string into an ordered list of substrings 
+//The JavaScript split() method divides a string into an ordered list of substrings ,
 // and returns them as a new array. 
-// The original string is not modified. 
-console.log(gameName.split("-"));//alisha-kh gve o/p alisha ,kh = seperated by '-'
+// The original string is not modified.
 
-console.log(str.split("country"));
+
+console.log(gameName.split("-")); //alisha-kh gve o/p alisha ,kh = seperated by '-'.
+
+console.log(str.split("country")); //
 
 
 
