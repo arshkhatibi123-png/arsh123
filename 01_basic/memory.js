@@ -3,7 +3,7 @@
 let myYoutubename = "arsh123dotcom"
 let anothername = myYoutubename
 
-// console.log(anothername);
+console.log(anothername);
 anothername = "chaiaurcode"// get copy of original
 
 console.log(myYoutubename);
