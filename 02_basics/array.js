@@ -83,9 +83,14 @@ console.log(citrus);
 console.log("A",myArr);
 const myn1 = myArr.slice(1,3)
 console.log(myn1);
-console.log("B",myArr);
+console.log("B",myArr);// o/p donot change original array
+
+const myn2 =myArr.slice(0,4)// (x,y) =>x=starts , included; y=end ,not included 
+console.log(myn2);
+
+const myn3 = myArr.splice(1,3)
+console.log(myn3);// o/p=[0,1,2] =>also included  last range
+console.log("C",myArr);// also change original value=[0,3,4]
 
 
-
-
- 
+  
