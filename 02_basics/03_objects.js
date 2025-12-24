@@ -45,17 +45,18 @@ console.log(jsUser[mySym]);
 
 //*****FREEZE*******
 jsUser.email = "arshali@chatgpt.com"
-Object.freeze(jsUser)// freeze d email value now cant change
+//Object.freeze(jsUser)// freeze d email value now cant change
  console.log(jsUser);
 jsUser.email = "arshali@yahoo.com"// not chnge value vlu bcz alrdy fixed
  console.log(jsUser);
 
  //*******function************
 
- 
 
- jsUser.greeting = function(){
+
+ jsUser.greeting = function()
+ {
     console.log("Hello Js user");
     
  }
-jsUser.greeting()
+jsUser.greeting();

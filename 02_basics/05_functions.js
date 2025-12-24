@@ -15,4 +15,4 @@ function greet(name)// name= paramtr
     console.log("Hello " +  name);
     
 }
-greet("Alisha");// Alisha =arguments
+greet("Alisha");// Alisha = arguments
