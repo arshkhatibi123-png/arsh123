@@ -47,4 +47,7 @@ console.log(jsUser[mySym]);
 jsUser.email = "arshali@chatgpt.com"
 Object.freeze(jsUser)// freeze d email value now cant change
  console.log(jsUser);
-jsUser.email = "arshali@yahoo.com"// not chnage value vlu bcz alrdy fixed
+jsUser.email = "arshali@yahoo.com"// not chnge value vlu bcz alrdy fixed
+ console.log(jsUser);
+
+ jsUser.greeting = function
