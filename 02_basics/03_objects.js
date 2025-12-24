@@ -17,10 +17,15 @@
 
 
 //****Object literals*** */
+
+const mySym = Symbol("key1")
+
+
 const jsUser = {
     name : "Alisha",
-    "full name" : "Alisha Khatibi"
-    age : "18",
+    "full name" : "Alisha Khatibi" ,//cant find its op using .js
+    [mySym]: "mykey1",
+     age : 18,
     Email: "ali123@gmail.com",
     isLoggedinDays: false,
     LastLoginDays: ["Monday", "Saturday"]
@@ -28,5 +33,11 @@ const jsUser = {
 }
 //console.log(jsUser.Email); //o/p=ali123@gmail.com// not nessesary only ds use
 console.log(jsUser["Email"]); //o/p=ali123@gmail.com// also use ds mthd
-
+//console.log(jsUser.full name]);// error not possible, not able assess
 //console.log(jsUser["Email","age","name"]); // not possible//o/p=Alisha(only name)
+
+//**************Symbols as a key**********
+//mySym="myKey1"// not possibl, not useas symbol, type of String
+//const mySym = Symbol("key1")// not here bfr dcl obj
+//[mySym]:"mykey1",// not declare here must b under object
+console.log(jsUser[mySym]);
