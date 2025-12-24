@@ -10,3 +10,18 @@
 //You should declare objects with the "const keyword".
 // When an object is declared with const, you cannot later reassign it to point to a different variable.
 // It does not make the object unchangeable. You can still modify its properties and values.
+
+
+// ***singleton**** 
+// = declare as literals  no singleton but from constructor will be singleton.
+
+
+//****Object literals*** */
+const jsUser = {
+    name : "Alisha",
+    age : "18",
+    Email: "ali123@gmail.com",
+    isLoggedinDays: false,
+    LastLoginDays: ["Monday", "Saturday"]
+
+}
