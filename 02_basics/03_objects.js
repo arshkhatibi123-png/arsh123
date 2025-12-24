@@ -45,4 +45,6 @@ console.log(jsUser[mySym]);
 
 //*****FREEZE*******
 jsUser.email = "arshali@chatgpt.com"
-Object.freeze(jsUser)
+Object.freeze(jsUser)// freeze d email value now cant change
+ console.log(jsUser);
+jsUser.email = "arshali@yahoo.com"// not chnage value vlu bcz alrdy fixed
