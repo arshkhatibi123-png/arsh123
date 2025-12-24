@@ -28,4 +28,16 @@ console.log(heroes);
 
 const another_array = [1,2,3,[4,5,6,[7,8,9] ] ]
 const all_array = another_array.flat(Infinity)
-console.log(all_array);
+console.log(all_array);// o/p=[1,2,3,4,5,6,7,8,9]
+
+//checking is array?
+
+console.log(Array.isArray("alisha"));// o/p=false, not array
+
+// convert into array
+
+console.log(Array.from("alisha"));// o/p=['a','l','i','s','h','a']
+
+console.log(Array.from({name :"alisha"}));// not able to detect gave empty array=> o/p=[]
+
+
