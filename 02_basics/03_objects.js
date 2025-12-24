@@ -19,9 +19,14 @@
 //****Object literals*** */
 const jsUser = {
     name : "Alisha",
+    "full name" : "Alisha Khatibi"
     age : "18",
     Email: "ali123@gmail.com",
     isLoggedinDays: false,
     LastLoginDays: ["Monday", "Saturday"]
 
 }
+//console.log(jsUser.Email); //o/p=ali123@gmail.com// not nessesary only ds use
+console.log(jsUser["Email"]); //o/p=ali123@gmail.com// also use ds mthd
+
+//console.log(jsUser["Email","age","name"]); // not possible//o/p=Alisha(only name)
