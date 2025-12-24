@@ -36,8 +36,16 @@ console.log(Array.isArray("alisha"));// o/p=false, not array
 
 // convert into array
 
+//Array.from is a static method that creates a new, shallow-copied array from an array-like or iterable object
+
 console.log(Array.from("alisha"));// o/p=['a','l','i','s','h','a']
 
 console.log(Array.from({name :"alisha"}));// not able to detect gave empty array=> o/p=[]
 
+//Array.of is a static method that creates a new array instance with a variable number of arguments,
 
+
+let score1=100
+let score2=200
+let score3=500
+console.log(Array.of(score1, score2, score3));// op=[100,200,500]
