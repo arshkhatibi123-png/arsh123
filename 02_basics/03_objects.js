@@ -50,4 +50,12 @@ Object.freeze(jsUser)// freeze d email value now cant change
 jsUser.email = "arshali@yahoo.com"// not chnge value vlu bcz alrdy fixed
  console.log(jsUser);
 
- jsUser.greeting = function
+ //*******function************
+
+ 
+
+ jsUser.greeting = function(){
+    console.log("Hello Js user");
+    
+ }
+jsUser.greeting()
