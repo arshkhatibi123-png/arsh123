@@ -63,10 +63,10 @@ jsUser.greeting();
 
  jsUser.greetingtwo = function()
 {
-    console.log('hello JS user,${}';
+    console.log(`hello JS user ${this.name}`);
 }
  jsUser.greetingtwo();
 
 
 
-
+// mysym in sqr brckt [mySym]
