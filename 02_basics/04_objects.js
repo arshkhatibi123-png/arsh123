@@ -24,3 +24,6 @@ const newUser = {
 }
 }
 console.log(newUser.fullname);
+
+//**********Object assigned********** */
+
