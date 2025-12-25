@@ -23,4 +23,4 @@ const newUser = {
 
 }
 }
-console.log(newUser.email);
+console.log(newUser.fullname);
