@@ -8,7 +8,7 @@ appUser.id = "123abc"
 appUser.name = "rocky"
 appUser.isLoggedIn ="false"
 
-//console.log(appUser); // 1)op={}// 2)now when declr id,name ,loggedi so o/p will b dt under{}
+console.log(appUser); // 1)op={}// 2)now when declr id,name ,loggedi so o/p will b dt under{}
 
 
 // ****Objects under Objects**********
@@ -23,4 +23,4 @@ const newUser = {
 
 }
 }
-console.log(newUser.fullname);
+console.log(newUser.email);
