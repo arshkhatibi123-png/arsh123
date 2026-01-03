@@ -1,4 +1,23 @@
 // *********** javascript execution context   *****
 // = how to run file by javascript, how to code execute
 // =run in two phase :
-// 1st global exctn contxt-> refer to "this" varible =@ browser=window object
+// 1st) global exctn contxt-> refer to "this" varible =@ browser=window object
+
+//2)fuction exctn cntxt
+//3)eval exctn cntxt = but prprty of global object,so also cld cm undr globl
+//
+
+// how to exct?
+// iin two phases
+// 1)memory creation phase or creatio phase
+//= only memory create or allocatn or space create not exctn of fn 
+//2) Exectn phase
+
+let val1 = 10
+let val2 = 5
+function addNum(num1,num2){
+    let total = num1 + num2
+    return total 
+}
+let result1 = addNum(val1, val2)
+let result2 = addNum(10,5)
