@@ -37,4 +37,13 @@ let result2 = addNum(10,5)
 //add Num -> new variable env + exectn Thread
 //= memory phase = val1-> undefined , val2-> undefined , total->undefined 
 //= execution context= num1 -> 10, num2 -> 5, total-> 15
-//total -> return to global execution
+//total -> return to global execution context
+// global ectn cntxt once use deleated 
+
+
+//result1 =15
+
+
+//for result2 again  new variable env +  execution thread  -> again 2 phase
+// 1> Memory phase , 2> Execution phase = total-> 12 , return to globl exctn cntxt
+//result2  = 12
