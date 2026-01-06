@@ -25,11 +25,27 @@ if (score > 100){
 
   // ******** shorthand notation ***********
 
-  const balance = 1000 
+ // const balance = 1000 
   //if (balance > 500) {
    // console.log("expensive");
  // }
 
         // or 
 
-        if (balance>500) console.log("expensive"); // implicit scope,but only execute n single line or by using "," ; but not use in practical= usimg ","
+ //if (balance>500) console.log("expensive"); // implicit scope,but only execute n single line or by using "," ; but not use in practical= usimg ","
+
+
+
+ const balance = 100
+ if (balance < 500){
+    console.log(" In budget");
+ }
+ else if (balance<700){
+    console.log(" budget can improve");
+ }
+ else if (balance <1200){
+    console.log("still little chances ");   
+}
+else{
+    console.log("cant afford");
+}
