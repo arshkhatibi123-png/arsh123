@@ -10,8 +10,7 @@ console.log("less than 50");
 else {
     console.log("temperature is greater than 50");
 }
-if (false){
+console.log("Execute");
 
-}
 
 // == chck value , === als chck data type
