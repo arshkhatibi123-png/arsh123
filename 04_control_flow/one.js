@@ -53,7 +53,7 @@
 const userLoggedIn = true
 const debitcard = true
 
-if (userLoggedIn && debitcard){      //&& = rqr both cndtn to fulfill
+if (userLoggedIn && debitcard){      //  && = rqr both cndtn to fulfill
     console.log("allow user to purchase");
  }
  else {
