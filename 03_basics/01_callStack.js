@@ -26,7 +26,7 @@ let result2 = addNum(10,5)
 
 // 2) memory phase -> allocation of memory 
 // val1 - undefined 
-//val2 - undefined 
+// val2 - undefined 
 // addnum- definition
 //result1- undefined 
 //result2- undefined 
