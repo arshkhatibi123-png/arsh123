@@ -52,11 +52,16 @@
 
 const userLoggedIn = true
 const debitcard = true
+const userLoggedInFromMail = true
+const userLoggedInFromGoogle = false
 
 if (userLoggedIn && debitcard){      //  && = rqr both cndtn to fulfill
     console.log("allow user to purchase");
  }
  else {
     console.log(" sorry not allow");
+ }
+ if (userLoggedInFromGoogle || userLoggedInFromMail){
+    console.log("user allow to logged in ");
  }
  
