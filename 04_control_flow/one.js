@@ -61,7 +61,7 @@ if (userLoggedIn && debitcard){      //  && = rqr both cndtn to fulfill
  else {
     console.log(" sorry not allow");
  }
- if (userLoggedInFromGoogle || userLoggedInFromMail){
+ if (userLoggedInFromGoogle || userLoggedInFromMail){    // "|| "used as or ie any one cndtn need 2 fulfl
     console.log("user allow to logged in ");
  }
  
