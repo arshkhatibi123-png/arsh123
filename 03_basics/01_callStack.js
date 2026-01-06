@@ -32,3 +32,8 @@ let result2 = addNum(10,5)
 //result2- undefined 
 
 //3) Execution phase 
+//val1 -> 10
+//val2 -> 5
+//add Num -> new variable env + exectn Thread
+//= memory phase = val1-> undefined , val2-> undefined , total->undefined 
+//= execution context= num1 -> 10, num2 -> 5, total->15
