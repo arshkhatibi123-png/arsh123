@@ -47,3 +47,7 @@ let result2 = addNum(10,5)
 //for result2 again  new variable env +  execution thread  -> again 2 phase
 // 1> Memory phase , 2> Execution phase = total-> 12 , return to globl exctn cntxt
 //result2  = 12
+
+
+
+//++++++++++++++ Call Stack +++++++++++
