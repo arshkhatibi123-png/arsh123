@@ -9,8 +9,8 @@
 
 // how to exct?
 // iin two phases
-// 1)memory creation phase or creatio phase
-//= only memory create or allocatn or space create not exctn of fn 
+// 1)memory creation phase or creation phase or memory phase
+//= only memory create or allocatn of memory  or space create not exctn of fn 
 //2) Exectn phase
 
 let val1 = 10
@@ -19,5 +19,5 @@ function addNum(num1,num2){
     let total = num1 + num2
     return total 
 }
-let result1 = addNum(val1, val2)
-let result2 = addNum(10,5)
+console.log(let result1 = addNum(val1, val2));
+console.log(let result2 = addNum(10,5));
