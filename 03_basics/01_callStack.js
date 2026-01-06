@@ -51,3 +51,5 @@ let result2 = addNum(10,5)
 
 
 //++++++++++++++ Call Stack +++++++++++
+
+// LIFO  cocept = last in 1st out
