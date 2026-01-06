@@ -22,3 +22,14 @@ if (score > 100){
     console.log(`User Power: ${power} `);
 }
   //console.log(`User Power: ${power} `); // cant use here bcz dclr inside pvt scope , will find error= pwr not defined
+
+  // ******** shorthand notation ***********
+
+  const balance = 1000 
+  //if (balance > 500) {
+   // console.log("expensive");
+ // }
+
+        // or 
+
+        if (balance>500) console.log("expensive"); // implicit scope,but only execute n single line or by using "," ; but not use in practical= usimg ","
