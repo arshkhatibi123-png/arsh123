@@ -14,3 +14,11 @@ console.log("Executed");
 
 
 // == chck value , === als chck data type
+
+
+const score = 200
+if (score > 100){
+    let power = "fly"
+    console.log(`User Power: ${power} `);
+}
+  //console.log(`User Power: ${power} `); // cant use here bcz dclr inside pvt scope , will find error= pwr not defined
