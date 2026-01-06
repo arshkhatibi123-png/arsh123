@@ -19,5 +19,16 @@ function addNum(num1,num2){
     let total = num1 + num2
     return total 
 }
-console.log(let result1 = addNum(val1, val2));
-console.log(let result2 = addNum(10,5));
+let result1 = addNum(val1, val2)
+let result2 = addNum(10,5)
+
+// 1) global extn -> this
+
+// 2) memory phase -> allocation of memory 
+// val1 - undefined 
+//val2 - undefined 
+// addnum- definition
+//result1- undefined 
+//result2- undefined 
+
+//3) Execution phase 
