@@ -35,7 +35,7 @@ console.log("March");
     break;
     case 4:
 console.log("April");
-    break;
+    break;// match all data aftr match ,excpt default
 
     default:
         break;
