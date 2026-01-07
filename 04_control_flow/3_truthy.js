@@ -38,3 +38,13 @@
  // false == 0, op=true
  // false =='', op=true
  // 0 == '', op=true
+
+ // +++++++++ Nullish coalescing Operator   ++++++++++
+
+ let val1;
+ val1 = 5 ?? 10
+
+
+ 
+ console.log(val1);
+ 
