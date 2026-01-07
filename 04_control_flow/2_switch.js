@@ -40,3 +40,15 @@ console.log("April");
     default:
         break;
 }
+
+//The break Keyword:
+
+// When JavaScript reaches a break keyword, it breaks out of the switch block.
+// This will stop the execution inside the switch block.
+// No more statements in the switch block will be executed.
+// It is not necessary to break the last case. The switch ends (breaks) there anyway.
+
+// Note:
+
+// The break keyword is crucial for preventing a "fall-through."
+// Without break, the code will continue to execute the next case blocks (and the default block if present) even if their values do not match the expression.
