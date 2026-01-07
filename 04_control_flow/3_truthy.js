@@ -30,6 +30,11 @@
  const emptyObj = {}
 
  if (Object.keys(emptyObj).length===0)  //array.length
-    {
+ {
     console.log("Object is empty");
  }
+
+
+ // false == 0, op=true
+ //false=='', op=true
+ //0 == '', op=true
