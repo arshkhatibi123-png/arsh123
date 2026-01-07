@@ -8,8 +8,10 @@
 
  const userEmail = []
 
- if (userEmail){
+ if (userEmail)
+    {
     console.log("Got user email");
- } else {
+ } 
+ else {
     console.log("Don't have user email");
  }
