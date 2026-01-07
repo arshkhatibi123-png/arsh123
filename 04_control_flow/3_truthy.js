@@ -2,4 +2,4 @@
 
  // falsy values :
 
- // false , 0, -0. BigInt On , "", null , undefined , NaN
+ // false , 0, -0,  BigInt On , "", null , undefined , NaN
