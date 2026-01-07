@@ -3,6 +3,9 @@
 //The value of the expression is compared with the values of each case.
 //If there is a match, the associated block of code is executed.
 //If there is no match, no code is executed.
+//switch is often used as a more readable alternative 
+// to many if...else if...else statements,
+//  especially when dealing with multiple possible values
 
 
 
