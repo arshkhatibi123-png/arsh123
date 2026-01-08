@@ -27,8 +27,11 @@
 // }
 
 
-let myArray = ["flash", "batman", "superman"]
-for (let index = 0; index < myArray.length; index++) {  //if <= o/p give = flash  batman  superman  undefined
-    const element = myArray[index];
-    console.log(element);  // op= flash  batman  superman
-}
+// let myArray = ["flash", "batman", "superman"]
+// for (let index = 0; index < myArray.length; index++) {  //if <= o/p give = flash  batman  superman  undefined ; if not ++ o/p only ifinit flash
+//     const element = myArray[index];
+//     console.log(element);  // op= flash  batman  superman
+// }
+
+
+
