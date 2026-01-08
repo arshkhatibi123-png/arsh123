@@ -61,7 +61,7 @@
 for (let index = 1; index <=20; index++){
     if (index==5){
         console.log( "number 5 detected" );  
-        continue;                       // after detection 5 , still continue....
+        continue;                       // after detection 5 , skip 5 and write"number 5 detected"  and again continue....
     } 
     console.log(`value of i is ${index}`);
 }
