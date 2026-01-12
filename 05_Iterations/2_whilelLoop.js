@@ -16,3 +16,12 @@ while (arr < myArray.length){
     arr = arr + 1
 
 }
+
+
+// do while loop
+
+do{
+console.log(`Score is $(score)`);
+
+}
+while (condition)
