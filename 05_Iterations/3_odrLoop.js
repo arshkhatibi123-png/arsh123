@@ -25,4 +25,6 @@ const map = new Map()
     map.set('IN',"India")
 
 
+    console.log(map);
+    
     
