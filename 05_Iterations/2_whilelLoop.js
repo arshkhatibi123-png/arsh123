@@ -22,6 +22,6 @@ while (arr < myArray.length){
 
 do{
 console.log(`Score is $(score)`);
-
+score++
 }
-while (condition)
+while (score<=10)
