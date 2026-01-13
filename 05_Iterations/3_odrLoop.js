@@ -41,6 +41,6 @@ const map = new Map()
         'game2' : 'Spiderman'
     }
 
-for (const [key, value] of object) {
+for (const [key, value] of myObject) { // myObject is not iterable 
     console.log(key, ':-', value); // will not work like ds
 }
