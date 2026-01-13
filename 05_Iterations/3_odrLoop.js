@@ -29,8 +29,10 @@ const map = new Map()
    // for (const [key, value] of map) {
        // console.log(key, ':-', value); 
     }
+    //  ###### //OR   #######
 
     // +++++++++ using "for in" loop +++++++
+   
     for (const key in map) 
      {
         console.log(map[key]); 
