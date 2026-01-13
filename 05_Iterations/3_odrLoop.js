@@ -26,11 +26,15 @@ const map = new Map()
 
     // console.log(map);
 
-    for (const [key, value] of map) {
-        console.log(key, ':-', value); 
+   // for (const [key, value] of map) {
+       // console.log(key, ':-', value); 
     }
 
-    
+    // +++++++++ using "for in" loop +++++++
+    for (const key in map) 
+     {
+        console.log(map[key]); 
+    }
 
 
     // try "for of" loop on object
