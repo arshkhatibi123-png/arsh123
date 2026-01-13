@@ -5,3 +5,7 @@ const myObject = {
     swift: 'swift by apple'
 }
 
+for (const key of myObject) {
+    console.log(`${key} shortcut is for ${myObject[key] }`);
+
+}
