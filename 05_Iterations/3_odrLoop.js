@@ -24,7 +24,23 @@ const map = new Map()
     map.set('Fr', "France")
     map.set('IN',"India")
 
+    // console.log(map);
 
-    console.log(map);
+    for (const [key, value] of map) {
+        console.log(key, ':-', value); 
+    }
 
     
+
+
+    // try "for of" loop on object
+
+    const myObject = {
+
+        'game1' : 'NFS',
+        'game2' : 'Spiderman'
+    }
+
+for (const [key, value] of object) {
+    console.log(key, ':-', value); // will not work like ds
+}
