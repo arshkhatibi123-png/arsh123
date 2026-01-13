@@ -35,12 +35,12 @@ const map = new Map()
 
     // try "for of" loop on object
 
-    const myObject = {
+//     const myObject = {
 
-        'game1' : 'NFS',
-        'game2' : 'Spiderman'
-    }
+//         'game1' : 'NFS',
+//         'game2' : 'Spiderman'
+//     }
 
-for (const [key, value] of myObject) {  
-    console.log(key, ':-', value);   // will not work like ds // error = // myObject is not iterable 
-}
+// for (const [key, value] of myObject) {  
+//     console.log(key, ':-', value);// will not work like ds // error = // myObject is not iterable 
+// }
