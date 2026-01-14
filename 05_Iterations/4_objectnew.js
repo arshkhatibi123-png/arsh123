@@ -1,4 +1,4 @@
-tp;,hg659ih1l;5z^AAgb// const myObject = {
+// const myObject = {
 //     js: 'javascript',
 //     cpp: 'c++',
 //     rb: "ruby",
@@ -8,10 +8,10 @@ tp;,hg659ih1l;5z^AAgb// const myObject = {
 //     console.log(`${key} shortcut is for ${myObject[key] }`);
 // }
 
-// +++for in in array?+++
+// +++   "for in" in array?   +++
 
 const programming = ["js", "rb", "py", "java", "cpp"]
 for (const key in programming) {
-   console.log(` ${programming[key] }`);
-   
+   console.log(`${programming[key] }`);
+
 }
