@@ -8,4 +8,6 @@ const coding = ["js", "ruby","java", "python", "cpp" ]
 
 
 // %%%%%%%   using arrow functn   %%%%%%%%%
-
+coding.forEach((val) => {
+    console.log(val); 
+});)
